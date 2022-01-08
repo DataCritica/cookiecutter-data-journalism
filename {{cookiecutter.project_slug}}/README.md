@@ -3,7 +3,7 @@
 
 Created by: {{cookiecutter.project_author}}
 
-## Project Organization
+## Directory Structure
 ```
 |- .gitignore              # Customized .gitignore for python projects
 |- LICENSE                 # Project's license
