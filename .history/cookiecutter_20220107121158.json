@@ -1,0 +1,7 @@
+{
+    "project_title": "Cookiecutter Data Journalism",
+    "project_slug": "cookiecutter_data_journalism",
+    "project_description": "A template for data journalism projects using python",
+    "project_author_name": "Your name",
+    "project_packages"
+}

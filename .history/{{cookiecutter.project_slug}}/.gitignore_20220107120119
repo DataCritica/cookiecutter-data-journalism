@@ -1,0 +1,18 @@
+# Directories
+data
+docs
+outputs
+
+# Virtual Environment
+env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Git
+.history

@@ -1,0 +1,20 @@
+import os
+import subprocess
+
+MESSAGE_COLOR = "\x1b[34m"
+RESET_ALL = "\x1b[0m"
+
+env = "{{cookiecutter.virtualenv_dir_name}}"
+env_path = os.getcwd() + f"/{env}/bin/pip"
+
+print(f"{MESSAGE_COLOR}Creating virtual environment...{RESET_ALL}")
+
+subprocess.call(['virtualenv', f'{env}'])
+subprocess.call(['pip3', 'install', 'ipykernel'])
+subprocess.call(['python3', '-m', 'ipykernel', 'install', '--user', '--name', f'{env}'])
+
+print(f"{MESSAGE_COLOR}Installing python packages...{RESET_ALL}")
+
+subprocess.call([env_path, 'install', '-r', 'requirements.txt'])
+
+print(f"{MESSAGE_COLOR}Your template for data journalism using python is ready!{RESET_ALL}")

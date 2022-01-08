@@ -1,0 +1,21 @@
+{
+    "project_name": "Cookiecutter Data Journalism",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "A template for data journalism projects using python",
+    "project_author": "Your name",
+    "license": [
+        ""
+    ]
+    "create_virtualenv": [
+        "Yes",
+        "No"
+    ],
+    "install_packages": [
+        "Yes",
+        "No"
+    ],
+    "initialize_git": [
+        "Yes",
+        "No"
+    ]
+}
