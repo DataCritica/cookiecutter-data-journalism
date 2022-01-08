@@ -1,7 +1,0 @@
-{
-    "project_title": "Cookiecutter Data Journalism",
-    "project_slug": "{{cookiecutter.project_title.lower}}",
-    "project_description": "A template for data journalism projects using python",
-    "project_author_name": "Your name",
-    "virtualenv_dir_name": "env"
-}
