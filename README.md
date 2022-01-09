@@ -37,35 +37,44 @@ This template standardizes and speeds up the creation of a project for data jour
 ---
 
 ## Installation 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 
-This data journalism template works on operating systems based on Linux and macOS.
+- ### **Quickstart**
 
-First you need to install `cookiecutter` either it is with `pip` or `conda`.
+    First you need to install [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/) either it is with [pip](https://pip.pypa.io/en/stable/) or [conda](https://docs.conda.io/en/latest/).
 
-- Installing with pip:
+    - Installing with pip:
 
-```pithon3
-pip install cookiecutter
-```
+    ```
+    pip install cookiecutter
+    ```
 
-- Installing with conda:
+    - Installing with conda:
 
-```python3
-conda config --add channels conda-forge
-conda install cookiecutter
-```
+    ```
+    conda config --add channels conda-forge
+    conda install cookiecutter
+    ```
 
-Then install the data journalism template:
+- ### **Start a new project**
 
-```python3
-cookiecutter https://github.com/fer-aguirre/cookiecutter-data-journalism
-```
-In addition you can install `virtualenv` to create a virtual environment for the project.
+    Now install the data journalism template.
 
-```python3
-pip install virtualenv
-```
+    ```
+    cookiecutter https://github.com/fer-aguirre/cookiecutter-data-journalism
+    ```
+- ### **Optional**
+
+    In addition you can install [pipenv](https://pypi.org/project/pipenv/) to create a virtual environment during the project generation.
+
+    ```
+    pip install pipenv
+    ```
+
+    The template works with notebooks, in case you don't have a set up for [jupyter](https://jupyter.org/), run the following command. 
+
+    ```
+    pip install jupyterlab notebook
+    ```
 
 ---
 
@@ -119,11 +128,18 @@ Install a selection of packages for a basic data analysis in journalism.
 
 ## Python Virtual Environment
 
+As a feature of this project, you can create a virtual environment for your project...
+
 ![Python](https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/languages/python.svg)
 
-
 ## Initialize Git 
+
+...
+
+Git comes by default on Linux and macOS, however if your OS is Windows, here's a [manual](https://phoenixnap.com/kb/how-to-install-git-windows) for installing git.
 
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ## Related templates
+
+...
