@@ -86,7 +86,35 @@ This template standardizes projects for data journalism and speeds up their crea
     cookiecutter https://github.com/fer-aguirre/cookiecutter-data-journalism
     ```
 
-    [![asciicast](https://asciinema.org/a/SI22AS1HdLlgpkU28jpXoNH7p.svg)](https://asciinema.org/a/SI22AS1HdLlgpkU28jpXoNH7p)
+- ### **Configure your project**
+    ```
+    > Select a project name:
+
+    > Select a project slug:
+
+    > Write a project description:
+
+    > Select a project author:
+
+    > Select a license: 
+        1. MIT
+        2. GNU General Public License v3
+
+    > Select an operating system:
+        1. Linux
+        2. MacOS
+        3. Windows
+
+    > Select a setup project (Create a virtual environment and install packages):
+        1. Yes
+        2. No
+
+    > Select initialize git:
+        1. Yes
+        2. No
+    ```
+
+    [![asciicast](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp.svg)](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp)
 
 - ### **Requirements**
 
@@ -95,6 +123,7 @@ This template standardizes projects for data journalism and speeds up their crea
     ```
     pip install jupyterlab notebook
     ```
+
 ---
 
 ## Workflow
