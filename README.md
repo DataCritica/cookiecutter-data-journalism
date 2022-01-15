@@ -53,7 +53,7 @@ This template standardizes projects for data journalism and speeds up their crea
 
 - Initializes a local [git](#initializa-git) repository for the purpose of managing a version control of the project.
 
-- The template supports Linux, MacOS and Windows installation. 
+- Supports Linux, MacOS and Windows installation. 
 
 ---
 
@@ -120,7 +120,7 @@ This template standardizes projects for data journalism and speeds up their crea
 
 - ### **Requirements**
 
-    The template works with Jupyter notebooks, in case you don't have a set up for [jupyter](https://jupyter.org/), run the following command: 
+    The template works with jupyter notebooks, in case you don't have a set up for [jupyter](https://jupyter.org/), run the following command: 
 
     ```
     pip install jupyterlab notebook
@@ -253,7 +253,7 @@ This template standardizes projects for data journalism and speeds up their crea
 
 ## Python Virtual Environment
 
-During the project generation, you'll be asked if you want to create a virtual environment, if you accept [pipenv](https://pypi.org/project/pipenv/) will be installed and create an environment for the project. It is worth mentioning that the template will initialize a **Python 3** virtual environment.
+During the project generation, you'll be asked if you want to create a virtual environment, if you accept [pipenv](https://pypi.org/project/pipenv/) will be installed and create an environment for the project.
 
 A virtual environment is a tool that separates dependencies of different projects. That means we can have isolated projects with their own packages, but on top of that it will help us to make our research reproducible since listing all the libraries necessary to reproduce an outcome should be part of our workflow.
 
