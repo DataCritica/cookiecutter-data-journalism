@@ -114,6 +114,8 @@ This template standardizes projects for data journalism and speeds up their crea
         2. No
     ```
 
+- ### **Example**
+
     [![asciicast](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp.svg)](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp)
 
 - ### **Requirements**
