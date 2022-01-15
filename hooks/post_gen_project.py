@@ -20,7 +20,7 @@ if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_sy
 if "{{cookiecutter.setup_project}}" == yes_venv:
     print(f"{MESSAGE_COLOR}Creating virtual environment...{RESET_ALL}")
     os.system("pipenv install --three")
-    os.system("pipenv install pandas numpy plotly ipykernel")
+    os.system("pipenv sync")
 
 # Initialize git for Linux and MacOS
 if "{{cookiecutter.initialize_git}}" == "Yes" and "{{cookiecutter.operating_system}}" == "Linux" or "{{cookiecutter.operating_system}}" == "MacOS":
