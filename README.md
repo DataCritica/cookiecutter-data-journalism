@@ -15,7 +15,7 @@ That's why although there are a lot of content for data science, we need adapted
 
 > ### *Develop good practices*
 
-Working with big amounts of data can result on several pivot tables, graphics and inevitable on different versions of our code and data. So when it comes to look through our own projects, we're not sure which is the final version of our data  among files called `data_cleanned` and `data_processed`, and what is more, we don't remember if `plots_working` or `plots_new` is the code that actually works for making a plot and the list can go on. 
+Working with big amounts of data can result on several pivot tables, graphics and inevitable on different versions of our code and data. So when it comes to look through our own projects, we're not sure which is the final version of our data  among files called *data_cleanned* and *data_processed*, and what is more, we don't remember if *plots_working* or *plots_new* is the code that actually works for making a plot and the list can go on. 
 
 > ### *Make our work transparent and open source*
 
