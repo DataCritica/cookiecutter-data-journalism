@@ -14,7 +14,7 @@ De modo que aunque hay muchos contenidos para ciencia de datos, necesitamos cont
 
 > ### *Desarrollar buenas practicas*
 
-Trabajar con grandes cantidades de datos puede resultar en varias tablas dinámicas, gráficos e inevitablemente en diferentes versiones de nuestro código y datos. Así que cuando se trata de inspeccionar nuestros propios proyectos, no estamos segurxs de cuál es la versión final de los datos entre archivos llamados `datos_limpios` y `datos_procesados`, y peor aún, no recordamos si `graficos_funcionando` o `graficos_nuevos` es el código que realmente funciona para hacer un gráfico entre muchos otros casos. 
+Trabajar con grandes cantidades de datos puede resultar en varias tablas dinámicas, gráficos e inevitablemente en diferentes versiones de nuestro código y datos. Así que cuando se trata de inspeccionar nuestros propios proyectos, no estamos segurxs de cuál es la versión final de los datos entre archivos llamados *datos_limpios* y *datos_procesados*, y peor aún, no recordamos si *graficos_funcionando* o *graficos_nuevos* es el código que realmente funciona para hacer un gráfico entre muchos otros casos. 
 
 > ### *Hacer nuestro trabajo transparente y de código abierto*
 
@@ -56,7 +56,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 
 ---
 
-## Installation 
+## Instalación 
 
 - ### **Guía rápida**
 
@@ -229,7 +229,7 @@ Para más información sobre `pipenv` puedes leer la [documentación](https://pi
 
 ---
 
-## Python Packages
+## Paquetes de Python
 Si se acepta la opción anterior, también se instalará una selección de paquetes para un análisis básico de datos en periodismo.
 
 | Biblioteca | Documentación  |
@@ -242,7 +242,7 @@ Además de estos paquetes, también se instalará [IPython kernel](https://ipyth
 
 ---
 
-## Initcialización de Git 
+## Inicialización de Git 
 
 El uso de git es una forma de poder gestionar las diferentes versiones de un proyecto y, por tanto, tener una copia de seguridad del mismo. Podemos tener este historial en nuestro propio ordenador a través de un repositorio local o tenerlo disponible en cualquier momento a través de un repositorio remoto en servidores (como GitHub o GitLab), de forma que podemos sincronizar estos repositorios a medida que hagamos cambios en ellos.
 
