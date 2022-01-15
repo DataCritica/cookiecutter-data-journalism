@@ -12,16 +12,20 @@ if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_sy
 # Install pipenv for MacOS
 if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "MacOS":
     os.system("brew install pipenv")
-# Install venv for Windows
+# Install pipenv for Windows
 if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "Windows":
     os.system("python -m pip install pipenv")
 
-# Install virtual environment
-if "{{cookiecutter.setup_project}}" == yes_venv:
+# Install virtual environment on Linux and MacOS
+if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "Linux" or "{{cookiecutter.operating_system}}" == "MacOS":
     print(f"{MESSAGE_COLOR}Creating virtual environment...{RESET_ALL}")
     os.system("pipenv install --three")
     os.system("pipenv sync")
-
+# Install virtual environment on Windows
+if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "Windows":
+    os.system("python -m pipenv install --three")
+    os.system("python -m pipenv sync")
+    
 # Initialize git for Linux and MacOS
 if "{{cookiecutter.initialize_git}}" == "Yes" and "{{cookiecutter.operating_system}}" == "Linux" or "{{cookiecutter.operating_system}}" == "MacOS":
     print(f"{MESSAGE_COLOR}Initializing a git repository...{RESET_ALL}")
