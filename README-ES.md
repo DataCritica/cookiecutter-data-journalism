@@ -52,7 +52,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 
 - Inicializa un repositorio local de [git](#inicialización-de-git) con el fin de gestionar un control de versiones del proyecto.
 
-- La plantilla soporta instalación en Linux, MacOS y Windows. 
+- Soporta instalación en Linux, MacOS y Windows. 
 
 ---
 
@@ -119,7 +119,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 
 - ### **Requisitos**
 
-    La plantilla trabaja con cuadernos de Jupyter, en caso de que no tengas una configuración para [jupyter](https://jupyter.org/), ejecuta el siguiente comando: 
+    La plantilla trabaja con cuadernos de jupyter, en caso de que no tengas una configuración para [jupyter](https://jupyter.org/), ejecuta el siguiente comando: 
 
     ```
     pip install jupyterlab notebook
@@ -252,7 +252,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 
 ## Entorno Virtual de Python
 
-Durante la generación del proyecto, se preguntará si deseas crear un entorno virtual, si aceptas [pipenv](https://pypi.org/project/pipenv/) se instalará y creará un entorno para el proyecto. Cabe mencionar que la plantilla inicializará un entorno virtual de **Python 3**.
+Durante la generación del proyecto, se preguntará si deseas crear un entorno virtual, si aceptas [pipenv](https://pypi.org/project/pipenv/) se instalará y creará un entorno para el proyecto.
 
 Un entorno virtual es una herramienta que separa las dependencias de diferentes proyectos. Esto significa que podemos tener proyectos aislados con sus propios paquetes, pero además nos ayudará a que nuestra investigación sea reproducible, ya que listar todas las bibliotecas necesarias para reproducir un resultado debe ser parte de nuestro flujo de trabajo.
 
