@@ -1,35 +1,35 @@
 """ Script that runs after the project generation"""
 import os
 
-MESSAGE_COLOR = "\x1b[34m"
+MESSAGE_COLOR = '\033[92m'
 RESET_ALL = "\x1b[0m"
 
-project_slug = "{{cookiecutter.project_slug}}"
-env_path = os.getcwd() + "/env/bin/pip"
+yes_venv = "Yes - Create a virtual environment and install packages"
+
+# Install pipenv for Linux
+if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "Linux":
+    os.system("pip install pipenv")
+# Install pipenv for MacOS
+if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "MacOS":
+    os.system("brew install pipenv")
+# Install venv for Windows
+if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "Windows":
+    os.system("python -m pip install pipenv")
 
 # Install virtual environment
-if "{{cookiecutter.create_virtualenv}}" == "Yes":
+if "{{cookiecutter.setup_project}}" == yes_venv:
     print(f"{MESSAGE_COLOR}Creating virtual environment...{RESET_ALL}")
-    os.system("virtualenv env")
-    os.system("pip3 install ipykernel")
-    os.system(f"python3 -m ipykernel install --user --name {project_slug}_env")
+    os.system("pipenv install --three")
+    os.system("pipenv install pandas numpy plotly ipykernel")
 
-# Install packages from environment path
-if "{{cookiecutter.install_packages}}" == "Yes" and "{{cookiecutter.create_virtualenv}}" == "Yes":
-    print(f"{MESSAGE_COLOR}Installing python packages...{RESET_ALL}")
-    os.system(f"{env_path} install -r requirements.txt")
-
-# Install packages
-if "{{cookiecutter.install_packages}}" == "Yes" and "{{cookiecutter.create_virtualenv}}" == "No":
-    print(f"{MESSAGE_COLOR}Installing python packages...{RESET_ALL}")
-    os.system("pip install -r requirements.txt")
-
-# Initialize git
-if "{{cookiecutter.initialize_git}}" == "Yes":
+# Initialize git for Linux and MacOS
+if {{"cookiecutter.initialize_git"}} == "Yes" and "{{cookiecutter.operating_system}}" == "Linux" or "{{cookiecutter.operating_system}}" == "MacOS":
     print(f"{MESSAGE_COLOR}Initializing a git repository...{RESET_ALL}")
-    os.system("git init")
-    os.system("git add .")
-    os.system('git commit -m "Initial commit"')
+    os.system("git init && git add . && git commit -m 'Initial commit'")
+# Initialize git for Windows
+if {{"cookiecutter.initialize_git"}} == "Yes" and "{{cookiecutter.operating_system}}" == "Windows":
+    print(f"{MESSAGE_COLOR}Initializing a git repository...{RESET_ALL}")
+    os.system("git init ; git add . ; git commit -m 'Initial commit'")
 
 # Final message
 print(f"{MESSAGE_COLOR}Your template for data journalism using python is ready!{RESET_ALL}")

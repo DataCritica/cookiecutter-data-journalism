@@ -13,7 +13,7 @@ RESET_ALL = "\x1b[0m"
 # Validate project slug
 if not re.match(module_regex, project_slug):
     print(
-        f"ERROR: The project slug {project_slug} is not a valid Python module name"
+        f"{ERROR_COLOR}ERROR: The project slug {project_slug} is not a valid Python module name"
         "Please use _ instead of -."
     )
 
