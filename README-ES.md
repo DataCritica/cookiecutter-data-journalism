@@ -113,6 +113,8 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
         2. No
     ```
 
+- ### **Ejemplo**
+
     [![asciicast](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp.svg)](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp)
 
 - ### **Requisitos**
@@ -149,7 +151,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 |
 |- docs                    # Material explicativo
 |  |- references           # Publicaciones académicas, artículos, manuales, etc.
-|  |- reports              # Informe del análisis en PDF, HTML, etc.
+|  |- reports              # Reporte del análisis en PDF, HTML, etc.
 |  |- data-dictionary.md   # Información sobre los datos
 |  |- explore-data.md      # Preguntas para explorar los datos
 |
@@ -203,7 +205,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 
     - ### `reports`
 
-        Aquí están los informes que dan cuenta del análisis de los datos, ponen en palabras los resultados de los gráficos y de todo lo exportado por el código.
+        Aquí están los reportes que dan cuenta del análisis de los datos, ponen en palabras los resultados de los gráficos y de todo lo exportado por el código.
 
     - ### `data-dictionary.md`
 
