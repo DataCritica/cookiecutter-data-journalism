@@ -85,6 +85,9 @@ This template standardizes projects for data journalism and speeds up their crea
     ```
     cookiecutter https://github.com/fer-aguirre/cookiecutter-data-journalism
     ```
+
+    [![asciicast](https://asciinema.org/a/SI22AS1HdLlgpkU28jpXoNH7p.svg)](https://asciinema.org/a/SI22AS1HdLlgpkU28jpXoNH7p)
+
 - ### **Requirements**
 
     The template works with Jupyter notebooks, in case you don't have a set up for [jupyter](https://jupyter.org/), run the following command: 
@@ -92,7 +95,6 @@ This template standardizes projects for data journalism and speeds up their crea
     ```
     pip install jupyterlab notebook
     ```
-
 ---
 
 ## Workflow
