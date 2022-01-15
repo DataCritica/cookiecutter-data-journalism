@@ -23,7 +23,7 @@ if "{{cookiecutter.setup_project}}" == yes_venv:
     os.system("pipenv install pandas numpy plotly ipykernel")
 
 # Initialize git for Linux and MacOS
-if {{"cookiecutter.initialize_git"}} == "Yes" and "{{cookiecutter.operating_system}}" == "Linux" or "{{cookiecutter.operating_system}}" == "MacOS":
+if {{"cookiecutter.initialize_git"}} == "Yes" and "{{cookiecutter.operating_system}}" == "Linux" or "MacOS":
     print(f"{MESSAGE_COLOR}Initializing a git repository...{RESET_ALL}")
     os.system("git init && git add . && git commit -m 'Initial commit'")
 # Initialize git for Windows
