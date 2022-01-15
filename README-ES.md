@@ -77,14 +77,45 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 
     Para más información sobre la instalación de cookiecutter lee la [documentación](https://cookiecutter.readthedocs.io/en/latest/installation.html).
 
-- ### **Comienza un nuevo proyecto**
+- ### **Inicia un nuevo proyecto**
 
     Ahora installa la plantilla para periodismo de datos:
 
     ```
     cookiecutter https://github.com/fer-aguirre/cookiecutter-data-journalism
     ```
-- ### **Requerimientos**
+
+- ### **Configura tu proyecto**
+    ```
+    > Selecciona un nombre del proyecto:
+
+    > Selecciona un slug del proyecto:
+
+    > Escribe una descripción del proyecto:
+
+    > Selecciona un autor del proyecto:
+
+    > Selecciona una licencia: 
+        1. MIT
+        2. GNU General Public License v3
+
+    > Selecciona un sistema operativo:
+        1. Linux
+        2. MacOS
+        3. Windows
+
+    > Selecciona una configuración para el proyecto (Crear un entorno virtual e instalar paquetes):
+        1. Sí
+        2. No
+
+    > Selecciona inicializar git:
+        1. Sí
+        2. No
+    ```
+
+    [![asciicast](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp.svg)](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp)
+
+- ### **Requisitos**
 
     La plantilla trabaja con cuadernos de Jupyter, en caso de que no tengas una configuración para [jupyter](https://jupyter.org/), ejecuta el siguiente comando: 
 
