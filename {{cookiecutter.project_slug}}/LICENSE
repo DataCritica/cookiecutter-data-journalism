@@ -1,4 +1,4 @@
-{% if cookiecutter.license == 'MIT License' -%}
+{% if cookiecutter.project_license == 'MIT License' -%}
 MIT License
 
 Copyright (c) {% now 'local', '%Y' %} {{ cookiecutter.project_author }}
@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-{% elif cookiecutter.license == 'GNU General Public License v3' -%}
+{% elif cookiecutter.project_license == 'GNU General Public License v3' -%}
 GNU GENERAL PUBLIC LICENSE
                       Version 3, 29 June 2007
 
