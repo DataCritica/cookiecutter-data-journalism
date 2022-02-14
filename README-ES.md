@@ -14,7 +14,7 @@ De modo que aunque hay muchos contenidos para ciencia de datos, necesitamos cont
 
 > ### *Desarrollar buenas practicas*
 
-Trabajar con grandes cantidades de datos puede resultar en varias tablas dinámicas, gráficos e inevitablemente en diferentes versiones de nuestro código y datos. Así que cuando se trata de inspeccionar nuestros propios proyectos, no estamos segurxs de cuál es la versión final de los datos entre archivos llamados *datos_limpios* y *datos_procesados*, y peor aún, no recordamos si *graficos_funcionando* o *graficos_nuevos* es el código que realmente funciona para hacer un gráfico entre muchos otros casos. 
+Trabajar con grandes cantidades de datos puede resultar en varias tablas dinámicas, gráficos e inevitablemente en diferentes versiones de nuestro código y datos. Así que cuando se trata de inspeccionar nuestros propios proyectos, lo ideal sería tener los nombres y la ubicación de los archivos organizados para poder localizarlos fácilmente y saber qué contiene cada uno de ellos.
 
 > ### *Hacer nuestro trabajo transparente y de código abierto*
 
@@ -52,7 +52,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 
 - Inicializa un repositorio local de [git](#inicialización-de-git) con el fin de gestionar un control de versiones del proyecto.
 
-- Soporta instalación en Linux, MacOS y Windows. 
+- Se puede configurar para Linux, MacOS y Windows. 
 
 ---
 
@@ -82,7 +82,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
     Ahora installa la plantilla para periodismo de datos:
 
     ```
-    cookiecutter https://github.com/fer-aguirre/cookiecutter-data-journalism
+    cookiecutter https://github.com/DataCritica/cookiecutter-data-journalism
     ```
 
 - ### **Configura tu proyecto**
@@ -315,3 +315,11 @@ En caso de que no tengas instalado git, aquí tienes una breve guía sobre cómo
 ---
 
 ## Otras Plantillas
+
+Este proyecto se ha inspirado en las siguientes plantillas dedicadas a la ciencia de datos y al periodismo de datos:
+
+- [AP Data Kit](http://datakit.ap.org/) por [Associeted Press](https://github.com/associatedpress)
+- [Startr](https://github.com/globeandmail/startr) por [The Globe and Mail Inc](https://github.com/globeandmail)
+- [Data Science Cookiecutter](https://github.com/drivendata/cookiecutter-data-science) por [Drivendata](https://github.com/drivendata)
+- [Modern Data Science Cookiecutter](https://github.com/crmne/cookiecutter-modern-datascience) por [Carmine Paolino](https://github.com/crmne)
+- [Data Driven Journalism Cookiecutter](https://github.com/JAStark/cookiecutter-data-driven-journalism) por [JAStark](https://github.com/JAStark)
