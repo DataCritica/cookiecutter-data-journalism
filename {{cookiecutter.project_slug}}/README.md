@@ -38,4 +38,4 @@ This project is released under [{{ cookiecutter.project_license }}](/LICENSE).
 
 ---
 
-This repository was generated with [cookiecutter](https://github.com/cookiecutter/cookiecutter) using a [data-journalism](https://github.com/fer-aguirre/cookiecutter-data-journalism.git) template for python.
+This repository was generated with [cookiecutter](https://github.com/cookiecutter/cookiecutter) using a [data-journalism](https://github.com/DataCritica/cookiecutter-data-journalism) template for python.

@@ -32,4 +32,4 @@ if "{{cookiecutter.initialize_git}}" == "Yes":
     os.system("git init && git add . && git commit -m 'Initial commit'")
 
 # Final message
-print(f"{MESSAGE_COLOR}Your template for data journalism using python is ready!{RESET_ALL}")
+print(f"{MESSAGE_COLOR}Your template for {{cookiecutter.project_name}} is ready!{RESET_ALL}")
