@@ -15,7 +15,7 @@ That's why although there are a lot of content for data science, we need adapted
 
 > ### *Develop good practices*
 
-Working with big amounts of data can result on several pivot tables, graphics and inevitable on different versions of our code and data. So when it comes to look through our own projects, we're not sure which is the final version of our data  among files called *data_cleanned* and *data_processed*, and what is more, we don't remember if *plots_working* or *plots_new* is the code that actually works for making a plot and the list can go on. 
+Working with big amounts of data can result on several pivot tables, graphics and inevitable on different versions of our code and data. So when it comes to look through our own projects, it would be ideal to have organized the names and location of our files to be able to locate them easily and to know what each of them contains.
 
 > ### *Make our work transparent and open source*
 
@@ -53,7 +53,7 @@ This template standardizes projects for data journalism and speeds up their crea
 
 - Initializes a local [git](#initializa-git) repository for the purpose of managing a version control of the project.
 
-- Supports Linux, MacOS and Windows installation. 
+- Can be configured to Linux, MacOS and Windows. 
 
 ---
 
@@ -83,7 +83,7 @@ This template standardizes projects for data journalism and speeds up their crea
     Now install the data journalism template:
 
     ```
-    cookiecutter https://github.com/fer-aguirre/cookiecutter-data-journalism
+    cookiecutter https://github.com/DataCritica/cookiecutter-data-journalism
     ```
 
 - ### **Configure your project**
@@ -317,3 +317,10 @@ In case you don't have git installed, here's a brief guide on how to download it
 
 ## Related Templates
 
+The current project was inspired by the following templates dedicated to data science and data journalism:
+
+- [AP Data Kit](http://datakit.ap.org/) by [Associeted Press](https://github.com/associatedpress)
+- [Startr](https://github.com/globeandmail/startr) by [The Globe and Mail Inc](https://github.com/globeandmail)
+- [Data Science Cookiecutter](https://github.com/drivendata/cookiecutter-data-science) by [Drivendata](https://github.com/drivendata)
+- [Modern Data Science Cookiecutter](https://github.com/crmne/cookiecutter-modern-datascience) by [Carmine Paolino](https://github.com/crmne)
+- [Data Driven Journalism Cookiecutter](https://github.com/JAStark/cookiecutter-data-driven-journalism) by [JAStark](https://github.com/JAStark)
