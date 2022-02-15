@@ -5,8 +5,6 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-numpy = "*"
-plotly = "*"
 ipykernel = "*"
 
 [dev-packages]
