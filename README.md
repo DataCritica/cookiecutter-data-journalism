@@ -3,6 +3,7 @@
 ---
 
 # Cookiecutter Data Journalism 🍪
+
 A [cookiecutter](https://github.com/cookiecutter/cookiecutter) template for data journalism projects using python
 
 ---
@@ -49,7 +50,7 @@ This template standardizes projects for data journalism and speeds up their crea
 
 - Automates the creation of a [virtual environment](#python-virtual-environment) in order to make an isolated and reproducible data project.
 
-- Installs useful [python packages](#python-packages) during data analysis: pandas, numpy and plotly.
+- Installs useful [python packages](#python-packages) during data analysis like pandas.
 
 - Initializes a local [git](#initializa-git) repository for the purpose of managing a version control of the project.
 
@@ -116,7 +117,7 @@ This template standardizes projects for data journalism and speeds up their crea
 
 - ### **Example**
 
-    [![asciicast](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp.svg)](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp)
+    [![asciicast](https://asciinema.org/a/P52t5N5VDJTxH8NMonpGjkmQ4.svg)](https://asciinema.org/a/P52t5N5VDJTxH8NMonpGjkmQ4)
 
 - ### **Requirements**
 
@@ -264,15 +265,13 @@ For more information about `pipenv` you can read the [documentation](https://pip
 ---
 
 ## Python Packages
-If you accept the previous option, you will also install a selection of packages for a basic data analysis in journalism.
+If you accept the previous option, you will also install a library dedicated to data analysis.
 
 | Library | Documentation  |
 | :-: | :-: |
 | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) | [Pandas](https://pandas.pydata.org/)
-| ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)  | [Numpy](https://numpy.org/doc/stable/)
-| ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) | [Plotly](https://plotly.com/python/)
 
-Besides those packages, [IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) will be installed too with the purpose of using a kernel with the virtual environment. 
+Besides this package, [IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) will be installed too with the purpose of using a kernel with the virtual environment. 
 
 ---
 
