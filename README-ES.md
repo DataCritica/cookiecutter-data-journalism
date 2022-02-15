@@ -10,7 +10,7 @@ Una plantilla de [cookiecutter](https://github.com/cookiecutter/cookiecutter) pa
 
 ## ¿Por qué usar esta plantilla? 🚀
 
-El vínculo entre los datos y el periodismo de investigación está creciendo con fuerza. En la era del big data, se abre un campo para indagar en los contenidos digitales y descubrir nuevas historias.
+El vínculo entre los datos y el periodismo está creciendo con fuerza. En la era del big data, se abre un campo para indagar en los contenidos digitales y descubrir nuevas historias.
 
 De modo que aunque hay muchos contenidos para ciencia de datos, necesitamos contenidos y herramientas adaptados para el periodismo de datos con el fin de enfatizar la importancia del reportaje, ya que no se trata sólo de analizar y visualizar datos, sino de contar historias sobre los descubrimientos humanizando esos datos.
 
