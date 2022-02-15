@@ -10,7 +10,7 @@ A [cookiecutter](https://github.com/cookiecutter/cookiecutter) template for data
 
 ## Why use this template? 🚀
 
-The bond between data and investigative journalism is growing heartily. In the era of the big data, there's an opening field to dig into the digital content and uncover new stories.
+The bond between data and journalism is growing heartily. In the era of the big data, there's an opening field to dig into the digital content and uncover new stories.
 
 That's why although there are a lot of content for data science, we need adapted contents and tools for data journalism in order to emphasize the importance of reporting since it is not only a matter of analyzing and visualizing data but telling stories about the discoveries humanizing that data.
 
