@@ -3,7 +3,9 @@
 ---
 
 # Cookiecutter Periodismo de Datos 🍪
+
 Una plantilla de [cookiecutter](https://github.com/cookiecutter/cookiecutter) para proyectos de periodismo de datos con Python
+
 ---
 
 ## ¿Por qué usar esta plantilla? 🚀
@@ -115,7 +117,7 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 
 - ### **Ejemplo**
 
-    [![asciicast](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp.svg)](https://asciinema.org/a/U74YPnb708uumNopBsl7he2bp)
+    [![asciicast](https://asciinema.org/a/P52t5N5VDJTxH8NMonpGjkmQ4.svg)](https://asciinema.org/a/P52t5N5VDJTxH8NMonpGjkmQ4)
 
 - ### **Requisitos**
 
@@ -263,15 +265,13 @@ Para más información sobre `pipenv` puedes leer la [documentación](https://pi
 ---
 
 ## Paquetes de Python
-Si se acepta la opción anterior, también se instalará una selección de paquetes para un análisis básico de datos en periodismo.
+Si se acepta la opción anterior, también se instalará una biblioteca para análisis de datos.
 
 | Biblioteca | Documentación  |
 | :-: | :-: |
 | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) | [Pandas](https://pandas.pydata.org/)
-| ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)  | [Numpy](https://numpy.org/doc/stable/)
-| ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) | [Plotly](https://plotly.com/python/)
 
-Además de estos paquetes, también se instalará [IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) con el fin de utilizar un kernel con el entorno virtual. 
+Además de este paquete, también se instalará [IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html) con el fin de utilizar un kernel con el entorno virtual. 
 
 ---
 
