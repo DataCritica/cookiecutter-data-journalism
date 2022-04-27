@@ -5,7 +5,6 @@ Created by: {{cookiecutter.project_author}}
 
 ## Directory Structure
 ```
-
 ├── data                     # Categorized data files 
 │   ├── processed            # Cleaned data
 │   └── raw                  # Original data
@@ -32,7 +31,6 @@ Created by: {{cookiecutter.project_author}}
 ├── Pipfile                  # Project dependencies
 |
 └── README.md                # Top-level README for this project
-
 ```
 ---
 

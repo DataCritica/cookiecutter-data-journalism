@@ -143,30 +143,32 @@ Esta plantilla estandariza los proyectos para el periodismo de datos y acelera s
 ## Estructura de Directorios
 
 ```
-|- .gitignore              # Personalización de .gitignore para proyectos en python
-|- LICENSE                 # Licencia del proyecto
-|- README.md               # README principal del proyecto
+├── data                     # Carpeta de datos clasificados 
+│   ├── processed            # Datos limpios
+│   └── raw                  # Datos originales
 |
-|- data                    # Carpeta de datos clasificados                     
-| |- processed             # Datos limpios
-| |- raw                   # Datos originales
+├── docs                     # Material explicativo
+│   ├── data-dictionary.md   # Información sobre los datos
+│   ├── explore-data.md      # Preguntas para explorar los datos
+│   ├── references           # Publicaciones académicas, artículos, manuales, etc.
+│   └── reports              # Reporte del análisis en PDF, HTML, etc.
 |
-|- docs                    # Material explicativo
-|  |- references           # Publicaciones académicas, artículos, manuales, etc.
-|  |- reports              # Reporte del análisis en PDF, HTML, etc.
-|  |- data-dictionary.md   # Información sobre los datos
-|  |- explore-data.md      # Preguntas para explorar los datos
+├── LICENSE                  # Licencia del proyecto
 |
-|- notebooks               # Cuadernos de jupyter
-|  |- 0.0-process.ipynb    # Procesamiento de datos (arreglar tipos de columnas, limpieza de datos, etc.)
-|  |- 1.0-analyze.ipynb    # Análisis exploratorio de datos
-|  |- 2.0-visualize.ipynb  # Métodos de visualización de datos
+├── notebooks                # Cuadernos de jupyter
+│   ├── 0.0-process.ipynb    # Procesamiento de datos (arreglar tipos de columnas, limpieza de datos, etc.)
+│   ├── 1.0-analyze.ipynb    # Análisis exploratorio de datos
+│   └── 2.0-visualize.ipynb  # Métodos de visualización de datos
 |
-|- outputs                 # Exportaciones generadas por los cuadernos
-|   |- tables              # Tablas dinámicas generadas para el análisis
-|   |- figures             # Generación de gráficos, mapas, etc. para su uso en los informes
-|  
-|- Pipfile                 # Dependencias del proyecto
+├── outputs                  # Exportaciones generadas por los cuadernos
+│   ├── figures              # Tablas dinámicas generadas para el análisis
+│   └── tables               # Generación de gráficos, mapas, etc. para su uso en los informes
+|
+├── .gitignore               # Plantilla de .gitignore para proyectos en python
+|
+├── Pipfile                  # Dependencias del proyecto
+|
+└── README.md                # README principal del proyecto
 ```
 
 - ### `.gitignore`
