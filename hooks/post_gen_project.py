@@ -20,11 +20,11 @@ if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_sy
 if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "Linux" or "{{cookiecutter.operating_system}}" == "MacOS":
     print(f"{MESSAGE_COLOR}Creating virtual environment...{RESET_ALL}")
     os.system("pipenv install")
-    os.system("pipenv shell")
+    os.system("pipenv sync")
 # Install virtual environment on Windows
 if "{{cookiecutter.setup_project}}" == yes_venv and "{{cookiecutter.operating_system}}" == "Windows":
     os.system("python -m pipenv install")
-    os.system("python -m pipenv shell")
+    os.system("python -m pipenv sync")
     
 # Initialize git
 if "{{cookiecutter.initialize_git}}" == "Yes":
